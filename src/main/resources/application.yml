@@ -6,8 +6,8 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defalutZone: http://localhost:8761/eureka
-#      defaultZone: http://210.109.61.200:30061/eureka
+#      defalutZone: http://localhost:8761/eureka
+      defaultZone: http://210.109.61.200:30061/eureka
 
 spring:
   main:
@@ -45,8 +45,8 @@ spring:
       client:
         provider:
           keycloak:
-            issuer-uri: http://localhost:5010/realms/team_cloud
-#            issuer-uri: http://210.109.61.78:5010/realms/team_cloud
+#            issuer-uri: http://localhost:5010/realms/team_cloud
+            issuer-uri: http://210.109.61.78:5010/realms/team_cloud
         registration:
           keycloak:
             client-id: team_cloud_client
@@ -57,5 +57,5 @@ spring:
 keycloak:
   realm: team_cloud
   resource: team_cloud_client
-  auth-server-url: http://localhost:5010/
-#  auth-server-url: http://210.109.61.78:5010/
+#  auth-server-url: http://localhost:5010/
+  auth-server-url: http://210.109.61.78:5010/
