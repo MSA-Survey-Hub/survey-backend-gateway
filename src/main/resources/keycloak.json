@@ -4,7 +4,7 @@
   "ssl-required": "external",
   "resource": "team_cloud_client",
   "credentials": {
-    "secret": "AvgjtsAvqQUNfo9DemEpANjMt3YrAtbt" // 변경 필요
+    "secret": "jM9vQGEvKdKovpbnSD83Q6HFDmAliEFd"
   },
   "confidential-port": 0
 }
